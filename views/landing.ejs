@@ -1,0 +1,30 @@
+<% include partials/header %>
+
+<div class="container">
+    <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% products.forEach(function(product){ %>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    
+                    <img src="<%= product.image %>">
+                    <div class="caption">
+                        <h4><%= product.title %></h4>
+                    </div>
+                    <p>
+                        <%= product.description %>
+                    </p>
+                    <%= product.price %>$
+                    <div>
+                        <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                    </div>
+                    
+                </div>
+            </div>
+              
+          
+        <% }); %>
+    </div>   
+</div>
+
+
+<% include partials/footer %>
