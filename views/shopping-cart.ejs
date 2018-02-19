@@ -1,0 +1,31 @@
+<% include partials/header %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col md-6">
+            <ul class="list-group">
+                <% cart.forEach(function(cart){ %>
+                    <li class="list-group-item">
+                        <span class="badge">1</span>
+                        <strong>Title: <%= cart.title %></strong>
+                        <span class="label label-success">$<%= cart.price %></span>
+                        
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col md-6">
+            <strong>Total: </strong>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col md-6">
+            <button type="button" class="btn btn-success">Checkout</button>
+        </div>
+    </div>
+</div>
+
+
+<% include partials/footer %>

@@ -5,27 +5,27 @@ mongoose.connect("mongodb://zbig:zbig@ds141068.mlab.com:41068/eshop");
 
 var products = [
     new Product({
-        image: "https://spontaniskai.lt/wp-content/uploads/2015/06/GTA-5-1024x576.jpg",
+        image: "https://vignette.wikia.nocookie.net/yogscast/images/a/a5/Grand_Theft_Auto_V.png/revision/latest?cb=20160703235415",
         title: "GTA V",
-        description: "cool game",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         price: 50
     }),
     new Product({
-        image: "https://spontaniskai.lt/wp-content/uploads/2015/06/GTA-5-1024x576.jpg",
-        title: "GTA V",
-        description: "cool game",
-        price: 50
+        image: "https://images-na.ssl-images-amazon.com/images/I/81rSkcE4IYL._SX342_.jpg",
+        title: "GTA IV",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        price: 40
     }),
     new Product({
-        image: "https://spontaniskai.lt/wp-content/uploads/2015/06/GTA-5-1024x576.jpg",
-        title: "GTA V",
-        description: "cool game",
-        price: 50
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR82hGy2aP6W3871SHtYrhNgkOOULpJekYJVafpPoTeLNwbi8uh",
+        title: "GTA III",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        price: 30
     }),
     new Product({
-        image: "https://spontaniskai.lt/wp-content/uploads/2015/06/GTA-5-1024x576.jpg",
-        title: "GTA V",
-        description: "cool game",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlZEEvPuC5Eo31UQmDPbvYHclXbuKBoCQcr40_-6wYlmoKhNX",
+        title: "Far Cry 3",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         price: 50
     })
 ];

@@ -21,6 +21,17 @@ app.get("/", function(req, res){
     });
 });
 
+app.get("/cart", function(req, res){
+    Product.find({}, function(err, cart){
+        if(err){
+            console.log(err);
+        } else {
+            res.render("shopping-cart", {cart: cart});
+        }
+    });
+});
+
+
 app.get("/add-to-cart/:id", function(req, res){
     var productId = req.params.id;
     var cart = new Cart(req.session.cart ? req.session.cart : {});
