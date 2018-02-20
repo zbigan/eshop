@@ -11,8 +11,8 @@ var products = [
         price: 50
     }),
     new Product({
-        image: "https://images-na.ssl-images-amazon.com/images/I/81rSkcE4IYL._SX342_.jpg",
-        title: "GTA IV",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Halo_Guardians.png/220px-Halo_Guardians.png",
+        title: "HALO 5",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         price: 40
     }),
@@ -27,6 +27,24 @@ var products = [
         title: "Far Cry 3",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         price: 50
+    }),
+    new Product({
+        image: "https://upload.wikimedia.org/wikipedia/lt/7/70/Fallout_4_cover_art.jpg",
+        title: "Fallout 4",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        price: 50
+    }),
+    new Product({
+        image: "https://static-cdn.jtvnw.net/ttv-boxart/Need%20for%20Speed%20Payback.jpg",
+        title: "NFS Payback",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        price: 70
+    }),
+    new Product({
+        image: "https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcGWM52CQerHRCtjVeOFTR7xJ9KPd1rRfJpHT0iG1qlY4Ja3FQNdXQNl8FoyO_j1eIbOL6E0zwOglu1HsY3kwZOEfxZ8QisXkKxxc1UvWT2Y0oHbcxRX7M_fq2anQyOBOUsaWXcu6OFly_2DD2HrK6.gxo2Inl8flaEhJM9V3OeUQ-&w=200&h=300&format=jpg",
+        title: "Mafia III",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        price: 60
     })
 ];
 
