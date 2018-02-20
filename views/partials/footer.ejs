@@ -1,4 +1,23 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+                function myFunction() {
+                    var input, filter, row, element, caption, h4, i;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    row = document.getElementById("product");
+                    caption = row.getElementsByClassName("caption");
+                    thumbnail = document.getElementsByClassName("thumbnail");
+                    for (i = 0; i < caption.length; i++) {
+                        h4 = caption[i].getElementsByTagName("h4")[0];
+                        if (h4.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            thumbnail[i].style.display = "";
+                        } else {
+                            thumbnail[i].style.display = "none";
+                
+                        }
+                    }
+                }
+        </script>
     </body>
 </html>
